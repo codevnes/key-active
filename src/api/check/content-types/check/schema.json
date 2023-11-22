@@ -1,0 +1,47 @@
+{
+  "kind": "collectionType",
+  "collectionName": "checks",
+  "info": {
+    "singularName": "check",
+    "pluralName": "checks",
+    "displayName": "check",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "License": {
+      "type": "string"
+    },
+    "Active": {
+      "type": "boolean"
+    },
+    "Expiry": {
+      "type": "date"
+    },
+    "Domain": {
+      "type": "string"
+    },
+    "Email": {
+      "type": "email"
+    },
+    "User": {
+      "type": "string"
+    },
+    "Version": {
+      "type": "string"
+    },
+    "Soft_Id": {
+      "type": "enumeration",
+      "enum": [
+        "cdvn-mb",
+        "cdvn-vcb",
+        "cdvn-acb",
+        "cdvn-icb",
+        "cdvn-wallet"
+      ]
+    }
+  }
+}
